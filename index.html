@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeatherDashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <h1>Weather</h1>
+      <button id="units" type="button" class="units" aria-pressed="false" title="Toggle units">&deg;C</button>
+    </header>
+    <form id="search-form" class="search" role="search">
+      <label for="search-input" class="sr-only">City</label>
+      <input id="search-input" type="search" placeholder="Search a city, e.g. Lisbon" autocomplete="off" required minlength="2">
+      <button type="submit">Search</button>
+    </form>
+    <div id="recent" class="recent" hidden aria-label="Recent searches"></div>
+    <ul id="results" class="results" hidden></ul>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+    <div id="panel" hidden></div>
+    <p class="credit">Data by <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a>. No API key required.</p>
+  </main>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

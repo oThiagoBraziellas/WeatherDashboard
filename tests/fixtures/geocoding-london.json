@@ -1,0 +1,8 @@
+{
+  "results": [
+    { "id": 2643743, "name": "London", "latitude": 51.50853, "longitude": -0.12574, "elevation": 25.0, "feature_code": "PPLC", "country_code": "GB", "timezone": "Europe/London", "population": 8961989, "country": "United Kingdom", "admin1": "England" },
+    { "id": 6058560, "name": "London", "latitude": 42.98339, "longitude": -81.23304, "country_code": "CA", "timezone": "America/Toronto", "country": "Canada", "admin1": "Ontario" },
+    { "name": "Broken", "latitude": null, "longitude": 1 }
+  ],
+  "generationtime_ms": 0.62
+}
